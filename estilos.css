@@ -1,0 +1,161 @@
+
+.cabecera {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display:flex;
+}
+#grass {
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.titulos {
+    margin-left:20px;
+    margin-top: 25px;
+}
+.barra-de-navegacion {
+    margin:0;
+    display:flex;
+    padding:0;
+    list-style: none;
+    margin-left:12px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.letra-nav{
+    text-decoration:none;
+    color:#009883;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.letra-nav:hover{
+    color:#008774;
+
+
+}
+.subtitulo {
+    text-align: center;
+    border:5px solid #006539; 
+    font-size:30px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    outline:5px solid #007e47;
+    background-color: #00a85f;
+    color:#b0e4cd;
+    display:block;
+    
+    margin-left: 20px;
+}
+.contenedor {
+    display:inline-block;
+    border:2px solid;
+    width:550px;
+    vertical-align:top;
+    margin-left:30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    height: 230px;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #00a991;
+    color:#e6f6f4;
+    border: 5px solid #009883;
+    cursor:pointer;
+}
+.escudos {
+    width: 150px;
+    float:right;
+    vertical-align:right;
+    align-items: right;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+    
+}
+.info{
+    width: 300px;
+    display:inline-block;
+    margin-top:0px;
+    margin-left:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h3 {
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+#Feyenoord{
+    width: 180px;
+}
+.contenedor:hover{
+    background-color: #004c41;
+    border-color: white;
+
+}
+aside{
+    display: inline-block;
+    margin-left:10px;
+    margin:20px 10px 10px 10px;
+    padding:0px 20px 10px 20px;    
+    height:530px;
+    width: 300px;
+    border:3px solid ;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background-color: #2f2679;
+    color:#bfbcd5;
+    border :3px ridge #1c1749;
+    border-radius: 3px;
+}
+.cuerpo{
+    display: flex;
+}
+.sub{
+    margin-top: 10px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+ol{
+    margin-left:1px;
+    padding-left:4px;
+}
+ol li{
+    padding-left: 4px;
+    margin-left:2px;
+}
+.pie{
+    background-color:#100d2a;
+    margin:0px;
+    padding:20px;
+    color: #bfbcd5;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+}
+.links{
+    display:flex;
+    margin-top: 5px;
+    
+
+}
+#wiki{
+    margin-left:940px;
+}
+a{
+    color:#e0deeb
+}
+body{
+    background-color: aquamarine;
+}

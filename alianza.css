@@ -1,0 +1,345 @@
+
+.cabecera {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display:flex;
+}
+#grass {
+    width: 40px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.titulos {
+    margin-left:20px;
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: 40px;
+    
+}
+.barra-de-navegacion {
+    margin:0;
+    display:flex;
+    padding:0;
+    list-style: none;
+}
+.subtemas{
+    margin-top:30px;
+    margin-left: 60px; 
+    font-size: 25px;
+    
+}
+.nav{
+    text-decoration:none;
+    color:#009883;
+    padding: 4px;
+    font-weight: bold;
+
+}
+.info{
+    text-align: center;
+    margin:15px 5px;
+    padding:20px 15px;
+    border: #3d4e56 solid;
+    border-radius:10px;
+    font-size: 28px;
+    color:#9dc9de;
+    background-color: #4e646f;
+    
+}
+h3:not(.palm){
+    font-size:25px;
+    text-align:center;
+    margin-left:180px;
+    margin-right: 180px;
+    padding: 5px 0px;
+    border:solid 2px #dbdee4;
+    border-radius: 10px;
+}
+h4{
+    font-size: 20px;
+    margin:5px 10px;
+    border:solid 2px #e7e9ed;
+    border-radius: 10px;
+    padding: 2px 0px;
+    
+}
+section{
+    margin: 20px 20px 10px 10px;
+    padding:10px 20px;
+
+}
+.contenedor-1{
+    width:500px;
+    border: #0a162b solid 5px;
+    border-radius:10px;
+    color:#b5bbc6;
+    background-color: #0d1c36;
+    margin:30px auto;
+}
+.contenedor-2{
+        width:800px;
+        text-align: center;
+        border: #0a162b solid 5px;
+        border-radius:10px;
+        color:#b5bbc6;
+        background-color: #0d1c36;
+        margin: 10px auto;
+}
+#alineacion {
+display:inline-block;
+}
+.campo{
+    transform: rotate(90deg);
+    position: absolute;
+    z-index:-1;
+    margin-top: 150px;
+    width: 600px;
+    border-radius: 20px;
+    border: 4px solid #006539;
+}
+.letra{
+    font-size: 12px;
+    text-align: center;
+}
+#Angelo-Campos{
+    margin-left:270px;
+    margin-top: 70px;
+    width: 60px;
+    text-align:center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+
+}
+#Catriel{
+    margin-left:120px;
+    margin-top:240px;
+    width:60px;
+    text-align:center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Giovanny{
+    margin-left:180px;
+    margin-top:170px;
+    width:60px;
+    text-align: center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+.trofeos{
+    height: 100px;
+}
+#Aldair{
+    margin-left:268px;
+    margin-top: 130px;
+    width:60px;
+    text-align: center;
+    position:absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+
+}
+section div p{
+    margin-top:0px;
+}
+#Jon{
+    margin-left:355px;
+    margin-top:170px;
+    width:60px;
+    text-align:center;
+    position:absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Aranda{
+    margin-left:420px;
+    margin-top:240px;
+    width:60px;
+    text-align: center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Castillo{
+    margin-left: 210px;
+    margin-top:290px;
+    width: 60px;
+    text-align: center;
+    position:absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Lagos{
+    margin-left:320px;
+    margin-top: 290px;
+    width: 60px;
+    text-align: center;
+    position:absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Costa{
+    margin-left:265px;
+    margin-top:360px;
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Serna{
+    margin-left:210px;
+    margin-top:440px;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+#Barcos{
+    margin-left:320px;
+    margin-top:440px;
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    transition: background-image 0.3s ease;
+    border:2px;
+    border-radius: 30px;
+}
+.trofeo{
+    margin-left:900px;
+    margin-top:5px;
+}
+#Angelo-Campos:hover{
+    background-image: url(img/campos.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1)
+}
+#Catriel:hover{
+    background-image: url(img/catriel.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1)
+}
+#Giovanny:hover{
+    background-image: url(img/giovanny_ramos.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1)
+}
+#Aldair:hover{
+    background-image: url(img/fuentes.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1)
+}
+#Jon:hover{
+    background-image: url(img/Garcia.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1);   
+}
+#Aranda:hover{
+    background-image: url(img/aranda.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1);   
+}
+#Castillo:hover{
+    background-image: url(img/Castillo.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1);   
+}
+#Lagos:hover{
+    background-image: url(img/Lagos.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1);   
+}
+#Costa:hover{
+    background-image: url(img/Costa.png) ;
+    background-size: cover;
+    border:solid 2px;
+    color:rgba(0,0,0,0.1);   
+}
+#Serna:hover{
+    background-image: url(img/Serna.png) ;
+    background-size: cover;
+    border:solid 2px ;
+    color:rgba(0,0,0,0.1);   
+}
+#Barcos:hover{
+    background-image: url(img/barcos.png) ;
+    background-size: cover;
+    border:solid 2px ;
+    color:rgba(0,0,0,0.1);   
+}
+#palmares{
+    color:#c1b9cc;
+    background-color: #311b52;
+    border: 4px solid #180d29;
+    border-radius: 10px;
+    padding:10px 50px 30px;
+    font-size: 20px;
+    width: 300px;
+
+}
+.pie{
+    background-color:#100d2a;
+    margin:40px 0px;
+    padding:20px;
+    color: #bfbcd5;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+    border:2px solid #081120;
+}
+.number25{
+    margin-left:12px
+}
+.number11{
+    margin-left: 20px;
+}
+.number12{
+    margin-left: 35px;
+}
+
+section span{
+    display:block;
+    width:20px;
+    margin:0px auto;
+    border:2px solid;
+    border-radius: 12px;
+}
+.links{
+    display:flex;
+    margin-top: 5px;
+
+}
+#wiki{
+    margin-left:700px;
+}
+body{
+    background-color: #060d19;
+}
+aside{
+    text-align: center;
+}
